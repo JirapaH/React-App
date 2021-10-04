@@ -15,8 +15,8 @@ function Post({id,title,deletePost}){
 
 Post.propTypes = {
     id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired
-   
+    title: PropTypes.string.isRequired,
+    deletePost: PropTypes.func.isRequired
 };
 
 export default Post;
